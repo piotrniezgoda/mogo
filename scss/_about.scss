@@ -1,0 +1,206 @@
+.about__article {
+  margin: 100px 0 100px 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.section__header {
+  position: relative;
+  z-index: 999;
+}
+
+.section__title-desc {
+  font-family: 'kaushan script';
+  font-size: 2.4rem;
+  color: #333;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section__title {
+  font-family: 'montserrat';
+  font-size: 3rem;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section__text {
+  text-align: center;
+  max-width: 950px;
+  color: #999;
+  font-size: 1.5rem;
+  font-family: 'montserrat';
+  font-weight: 400;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.section__line {
+  width: 60px;
+  height: 3px;
+  background: #f38181;
+  display: block;
+  margin: 35px auto 40px auto;
+}
+
+.about__rec-group {
+  box-sizing: border-box;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto 100px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.about__rectangle {
+  width: 380px;
+  height: 380px;
+  transition: all 0.5s;
+}
+
+
+
+.about__rectangle:hover {
+  transform: translate(-12px, -12px);
+}
+
+.rectangle-hover__text {
+  color: #fff;
+  font-family: 'montserrat';
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+}
+
+.about-rec1{
+  background: url('../img/about_img1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about-rec1:hover {
+  box-shadow: 12px 12px 0px 0px rgba(149,225,211,1);
+}
+
+.about__rectangle--hover {
+  opacity: 0;
+  background:  linear-gradient(rgba(244, 129, 129, 0.9), rgba(252, 228, 139, 0.9));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.about__rectangle--hover:hover {
+  opacity:1;
+
+}
+
+.about-rec2 {
+  background: url('../img/about_img2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about-rec2:hover {
+  box-shadow: 12px 12px 0px 0px #f38181;
+}
+
+.about-rec3 {
+  background: url('../img/about_img3.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about-rec3:hover {
+  box-shadow: 12px 12px 0px 0px #fce38a;
+}
+
+.fa-terminal, .fa-users {
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.about__counter {
+  width: 100%;
+  height: 270px;
+  background: #95e1d3;
+  grid-area: 8/1/12/11;
+}
+
+.counter__list {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: repeat(10, 10%)/repeat(10, 10%);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.counter__item1 {
+  margin: 0;
+  padding: 0;
+  grid-area: 1/1/11/3;
+}
+.counter__item2 {
+  margin: 0;
+  padding: 0;
+  grid-area: 1/3/11/5;
+}
+.counter__item3 {
+  margin: 0;
+  padding: 0;
+  grid-area: 1/5/11/7;
+}
+.counter__item4 {
+  margin: 0;
+  padding: 0;
+  grid-area: 1/7/11/9;
+}
+
+.counter__item5 {
+  margin: 0;
+  padding: 0;
+  grid-area: 1/9/11/11;
+}
+
+.count {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(255,255,255,0.3);
+  border-left:  1px solid rgba(255,255,255,0.3);
+}
+
+.counter__projects-number {
+  font-size: 7.2rem;
+  font-family: 'montserrat';
+  color: #fff;
+  font-weight: 700;
+}
+
+.counter-item__desc {
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: 'montserrat';
+  text-transform: uppercase;
+}
